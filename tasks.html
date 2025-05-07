@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Evaluation Report - Tasks</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Evaluation Report</a>
+                </div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="decide-framework.html">DECIDE Framework</a></li>
+                        <li><a href="evaluation-results.html">Evaluation Results</a></li>
+                        <li class="active"><a href="tasks.html">Tasks</a></li>
+                        <li><a href="improvements.html">Proposed Improvements</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="decide-framework.html">DECIDE Framework</a></li>
+            <li><a href="evaluation-results.html">Evaluation Results</a></li>
+            <li class="active"><a href="tasks.html">Tasks</a></li>
+            <li><a href="improvements.html">Proposed Improvements</a></li>
+            <li><a href="extra.html">Extra</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="container">
+            <section class="page-header">
+                <h1>Evaluation Tasks</h1>
+                <p class="subtitle">Tasks used during the evaluation process and their outcomes</p>
+            </section>
+
+            <section class="card">
+                <div class="card-header">
+                    <h2>Task Overview</h2>
+                    <p class="card-description">Description of the evaluation methodology and task selection</p>
+                </div>
+                <div class="card-content">
+                    <p>
+                        Outlines the tasks that were used during our evaluation of the Mobile Store Management System. These tasks
+                        were selected to represent typical user interactions with the system and to cover the main functionality
+                        areas. Each task was performed by 5 evaluators, and the results were documented in terms of task
+                        success, completion time, and observed issues.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Task List</h2>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Task Description</th>
+                                <th>Success</th>
+                                <th class="hide-mobile">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Create a new user account</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">Most users completed this task without difficulty, though some were confused by the verification email process.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Adding a new product</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">Adding product to the list said to be already exist yet, cannot be found in the Product List side menu.</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Update the product list</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">although updating the product works it does not have a confirmation message before it does the action or i can't revert the action now if i wanted to.</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>4</td>
+                                <td>Add/ Update / Delete brand</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">adding of brand was pretty easy to do as well. same as the updating of the product when i update the brand it also dont show a confirmation message before proceeding with the action. Deleting was easy and it gave me an option before proceeding with the task.</td>
+                            </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>Sanitation of input fields</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">i have prompted chat gpt to give me a simple Javascript Injection Attack code and it accepted it, this means that it is vulnerable to XSS attack. but the input field for the login is properly sanitized because i also tried to attack it with a simple sql injection. but it does not provide an indicator if the user is really present on the database and just continue to load.</td>
+                            </tr>
+
+                            <tr>
+                                <td>6</td>
+                                <td>Viewing product details</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">I tapped on a mobile phone, but the images weren’t very clear. The price and specs were okay, but the wording on the site could be more concise and not easier to understand.</td>
+                            </tr>
+
+                            <tr>
+                                <td>7</td>
+                                <td>Searching or sorting products</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">I used the search to sort phones by price and brand. The process was slow.</td>
+                            </tr>
+
+                            <tr>
+                                <td>8</td>
+                                <td>Adding item to the Cart </td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">There were no problems regarding
+                                    this.</td>
+                            </tr>
+
+                            <tr>
+                                <td>9</td>
+                                <td>Checking Out</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">There were no problems yet the user
+                                    can checkout even though there are
+                                    no items in the Cart.</td>
+                            </tr>
+
+                            <tr>
+                                <td>10</td>
+                                <td>Decreasing item quantity in the Cart section.</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">It was smooth yet there is no Undo
+                                    button for accidental clicks.</td>
+                            </tr>
+
+                            <tr>
+                                <td>11</td>
+                                <td>Removing item from Cart.</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">Although there were no problems
+                                    regarding this, the Undo buttonseems to be reasonable to implement.</td>
+                            </tr>
+
+                            <tr>
+                                <td>12</td>
+                                <td>Emptying the Cart </td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">It was smooth but then again, the Undo button will come handy.</td>
+                            </tr>
+
+                            <tr>
+                                <td>13</td>
+                                <td>Placing an Order</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">It was good but there is no way to track your order which will create frustration and confusion.</td>
+                            </tr>
+
+                            <tr>
+                                <td>14</td>
+                                <td>Paying</td>
+                                <td>Yes</td>
+                                <td class="hide-mobile">Paypal API is working well.</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="mt-large">
+                <h2 class="section-title">Evaluation Conclusion</h2>
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Summary of Findings</h2>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Based on the task performance data and observed user behavior, we can draw the following conclusions:
+                        </p>
+                        <ul class="bullet-list">
+                            <li>The system is mostly functional and can complete core task, such as creating accounts, managing products, and placing orders without critical failures. Lack of feedback for some interactions that can lead to user frustration</li>
+                            <li>Security vulnerabilities and inconsistent input Sanitation pose as a threat, but sql injection were blocked on a login page.</li>
+                            <li>The overall UI and the display content need an improvement and optimize sizes of content like banner. There is a performance issue during product sorting and searches that may affect user satisfaction.</li>
+                            <li>Inability of the system to track placed orders and the system allows checkout with an empty cart. </li>
+                        </ul>
+                        <p class="mt-20">
+                            Overall, the evaluation revealed that the system is mostly functional and enables user to complete
+                            key tasks, there are significant usability and security concerns. The system's major strengths lie
+                            in its core task functionality and stable payment integration, but weaknesses include poor input Sanitation,
+                            lack of user feedback mechanisms, and missing features like order tracking and undo capabilities.Solving These
+                            issues will surely enhance both security and user experience of the system.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Website Evaluation Report. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+

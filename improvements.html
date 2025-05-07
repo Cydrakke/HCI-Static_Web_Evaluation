@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Evaluation Report - Proposed Improvements</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Evaluation Report</a>
+                </div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="decide-framework.html">DECIDE Framework</a></li>
+                        <li><a href="evaluation-results.html">Evaluation Results</a></li>
+                        <li><a href="tasks.html">Tasks</a></li>
+                        <li class="active"><a href="improvements.html">Proposed Improvements</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="decide-framework.html">DECIDE Framework</a></li>
+            <li><a href="evaluation-results.html">Evaluation Results</a></li>
+            <li><a href="tasks.html">Tasks</a></li>
+            <li class="active"><a href="improvements.html">Proposed Improvements</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="container">
+            <section class="page-header">
+                <h1>Proposed Improvements</h1>
+                <p class="subtitle">Recommended UI improvements based on evaluation findings</p>
+            </section>
+
+            <section class="card">
+                <div class="card-header">
+                    <h2>Improvement Strategy</h2>
+                    <p class="card-description">Overview of our approach to addressing the identified usability issues</p>
+                </div>
+                <div class="card-content">
+                    <p>
+                        Based on the usability issues identified during our evaluation, we have developed a set of proposed
+                        improvements for Mobile Store Management System. These improvements are designed to address the most critical
+                        usability issues while maintaining the overall look and feel of the website.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">UI Improvements</h2>
+                
+                <div class="tabs">
+                    <div class="tab-list">
+                        <button class="tab-button active" data-tab="all-improvements"> Improvements</button>
+                        <button class="tab-button" data-tab="high-priority">High Priority</button>
+                        <button class="tab-button" data-tab="medium-priority">Medium Priority</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="all-improvements">
+                        <div class="improvement-card">
+                            <div class="improvement-image">
+                                <img src="image/recommendation/color.jpg" alt="Mockup for: Redesigned Navigation Menu">
+                            </div>
+                            <div class="improvement-details">
+                                <h3>Consistent color theme</h3>
+                                <p class="improvement-heuristic">Related Heuristic: Consistency and Standards</p>
+                                <div class="improvement-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        A consistent color theme for the side menu in a mobile store management system ensures a unified and cohesive design.
+                                    </p>
+                                </div>
+                                <div class="improvement-justification">
+                                    <h4>Justification:</h4>
+                                    <p>
+                                        Consistent colors improve navigation, reduce confusion, and create a professional look, making the app easier to use and enhancing brand recognition.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="improvement-card">
+                            <div class="improvement-image">
+                                <img src="image/recommendation/r2.png" alt="Mockup for: Redesigned Navigation Menu">
+                            </div>
+                            <div class="improvement-details">
+                                <h3>Proper Error messages and validation</h3>
+                                <p class="improvement-heuristic">Related Heuristic: Error Prevention</p>
+                                <div class="improvement-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        It lacks a message info that prevents users from modifying the data when it is in admin mode this can lead to unwanted deletion of data leading to error.
+                                    </p>
+                                </div>
+                                <div class="improvement-justification">
+                                    <h4>Justification:</h4>
+                                    <p>
+                                        Without a clear warning in admin mode, users may unknowingly modify or delete important data. This violates the error prevention heuristic, as the system 
+                                        fails to alert users before risky actions, increasing the chance of accidental errors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="improvement-card">
+                            <div class="improvement-image">
+                                <img src="image/recommendation/r1.png" alt="Mockup for: Enhanced Form Validation">
+                            </div>
+                            <div class="improvement-details">
+                                <h3>Visibility of the system status</h3>
+                                <p class="improvement-heuristic">Related Heuristic: Visibility of System Status</p>
+                                <div class="improvement-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        The message status is too small and the color for the messages needs to use the standard like red for error and green for success.
+                                    </p>
+                                </div>
+                                <div class="improvement-justification">
+                                    <h4>Justification:</h4>
+                                    <p>
+                                        Small and non-standard message indicators reduce the visibility of system feedback. Using clear sizing and conventional colors 
+                                        (like red for errors, green for success) helps users quickly understand system status and respond appropriately.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="improvement-card">
+                            <div class="improvement-image">
+                                <img src="image/recommendation/r3.png" alt="Mockup for: Consistent Button Styling">
+                            </div>
+                            <div class="improvement-details">
+                                <h3>Consistency and Standards</h3>
+                                <p class="improvement-heuristic">Related Heuristic: Consistency and Standards</p>
+                                <div class="improvement-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        The banner takes up excessive screen space, pushing important content out of user view, it needs to optimize the banner size for better user experience.
+                                    </p>
+                                </div>
+                                <div class="improvement-justification">
+                                    <h4>Justification:</h4>
+                                    <p>
+                                        The banner takes up too much screen space, pushing important content out of view. Reducing its size would improve user experience by keeping essential content accessible and preventing unnecessary scrolling.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="improvement-card">
+                            <div class="improvement-image">
+                                <img src="image/recommendation/r4.png" alt="Mockup for: Consistent Button Styling">
+                            </div>
+                            <div class="improvement-details">
+                                <h3>Visibility and System Status</h3>
+                                <p class="improvement-heuristic">Related Heuristic: Visibility and System Status</p>
+                                <div class="improvement-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        Navigation menu on the header tab is misaligned, it needs to adjust their layout to be aligned.
+                                    </p>
+                                </div>
+                                <div class="improvement-justification">
+                                    <h4>Justification:</h4>
+                                    <p>
+                                        The navigation menu on the header tab is misaligned, which affects the overall layout. It should be adjusted to ensure proper alignment for a cleaner, more organized appearance.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="high-priority">
+                        <div class="card">
+                            <div class="card-content">
+                                <p>
+                                    • The system allows checkout even with zero items to checkout
+                                    Impacts core functionality; can confuse users and break the purchase flow.<br>
+                                    
+                                    • There is no "Undo" button right after clicking the "Empty Cart" or "+" and "-"
+                                    Affects user control and can lead to frustration or loss of data.<br>
+                                    
+                                    • Does not provide confirmation before saving the entry
+                                    May lead to unintentional changes or errors being saved.<br>
+                                    
+                                    • Absence of On-Screen return control from categories to subcategories
+                                    Hurts navigation, especially for users trying to move between product views.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="medium-priority">
+                        <div class="card">
+                            <div class="card-content">
+                                <p>
+                                    • The banner occupied half of the website's display
+                                    Affects user experience but not core functionality; should be resized for better content visibility.<br>
+                                    
+                                    • Color theme between side menu (purple) and header (pink) is inconsistent
+                                    Aesthetic inconsistency that affects visual coherence and professionalism.<br>
+                                    
+                                    • Lack of visual cues—just a plain text interface
+                                    Makes the UI less intuitive but does not directly break functionality.<br>
+                                    
+                                    • No On-Screen Help or Hints
+                                    Reduces usability for new users but doesn’t affect experienced users as heavily.<br>
+                                    
+                                    • Lack of currency symbols
+                                    Can cause confusion but doesn't impact transaction mechanics directly.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Website Evaluation Report. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

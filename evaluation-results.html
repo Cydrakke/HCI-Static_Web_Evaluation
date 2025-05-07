@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Evaluation Report - Evaluation Results</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Evaluation Report</a>
+                </div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="decide-framework.html">DECIDE Framework</a></li>
+                        <li class="active"><a href="evaluation-results.html">Evaluation Results</a></li>
+                        <li><a href="tasks.html">Tasks</a></li>
+                        <li><a href="improvements.html">Proposed Improvements</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="decide-framework.html">DECIDE Framework</a></li>
+            <li class="active"><a href="evaluation-results.html">Evaluation Results</a></li>
+            <li><a href="tasks.html">Tasks</a></li>
+            <li><a href="improvements.html">Proposed Improvements</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="container">
+            <section class="page-header">
+                <h1>Evaluation Results</h1>
+                <p class="subtitle">Detailed findings from our usability evaluation</p>
+            </section>
+
+            <section class="card">
+                <div class="card-header">
+                    <h2>Evaluation Summary</h2>
+                    <p class="card-description">Overview of the evaluation process and key findings</p>
+                </div>
+                <div class="card-content">
+                    <p>
+                        This section presents a summary of our usability evaluation of Mobile Store Management System. We identified
+                        [number] usability issues across various aspects of the interface, categorized according to Nielsen's
+                        heuristics. Each issue is documented with screenshots, descriptions, and an assessment of its impact on
+                        the user experience.
+                    </p>
+                    <div class="mt-20">
+                        <a href="https://drive.google.com/drive/folders/1mdhDkmxYHq_6gVyDBFjnF01PrG1NusW3?usp=sharing" target="_blank" class="button button-outline">
+                            <i class="fas fa-download"></i>
+                            Download Heuristic Evaluation Workbook (PDF)
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Usability Issues</h2>
+                
+                <div class="tabs">
+                    <div class="tab-list">
+                        <button class="tab-button active" data-tab="all">All Issues</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="all">
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/banner_issue.png" alt="Screenshot of issue: Banner size too big">
+                            </div>
+                            <div class="issue-details">
+                                <h3>The banner occupied half of the website's display.</h3>
+                                <p class="issue-heuristic">Heuristic Violated: Consistency and Standards</p>
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        Banner's size is too big, resulting users may focus more on banner instead of the items.
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                       User might get annoyed by the size of banner, and might eventually quit website because the banner get more attention than the actual products.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/Consistency and Standards.jpg" alt="Screenshot of issue: Form validation errors are not clearly indicated">
+                            </div>
+                            <div class="issue-details">
+                                <h3>Color theme between side menu (purple) and header (pink) is inconsistent. </h3>
+                                <p class="issue-heuristic">Heuristic Violated: Consistency and Standards</p>
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        Color inconsistent: While both color are vibrant, they belong to
+                                        different color families and both don't blend smoothly. Which breaks the visual
+                                        harmony expected in a cohesive design system.
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                        Confusion and Distraction, visual inconsistency can confuse users by making the
+                                        layout feel disjointed. Instead of focusing on their tasks, user may be distracted
+                                        by the clashing design.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/product-list.png" alt="Screenshot of issue: Inconsistent button styling across pages">
+                            </div>
+                            <div class="issue-details">
+                                <h3>Does not provide confirmation before saving the entry</h3>
+                                <p class="issue-heuristic">Heuristic Violated: Error prevention</p>
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        when i was uodating an entry tried to save it it does not provide a confirmation before doing the action.
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                       Users might feel frustrated because maybe the update contains an important part of the system that they dont want to update. this also gives less control to the user and make them less important
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/lack of visual cues.png" alt="Screenshot of issue: Inconsistent button styling across pages">
+                            </div>
+                            <div class="issue-details">
+                                <h3>Lack of visual cues just a plain text interface</h3>
+                                <p class="issue-heuristic">Heuristic Violated: Visibility of System Status, Recognition Rather Than Recall, Aesthetic and Minimalist Design
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        The site uses only plain text with no icons, buttons, or layout structure to guide users.
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                        Users may feel confused or overwhelmed due to the lack of clear navigation and interaction hints. 
+                                        This can lead to frustration, increased errors, and early abandonment of the site, especially for 
+                                        first-time or non-technical users.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/absence of On-Screen.png" alt="Screenshot of issue: Inconsistent button styling across pages">
+                            </div>
+                            <div class="issue-details">
+                                <h3>Absence of On-Screen return control from categories to sub categories</h3>
+                                <p class="issue-heuristic">Heuristic Violated: User Control and Freedom, Visibility of System Status, Consistency and Standards
+                                    
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        When I clicked or open the Accessories, I noticed that there is no visible button or link to return from a category page to its subcategories.
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                        Users may feel trapped or forced to use the browser's back button. This disrupts navigation flow, increases frustration, and reduces efficiency—especially 
+                                        for users exploring multiple sections.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/no on-screen help or hints.png" alt="Screenshot of issue: Inconsistent button styling across pages">
+                            </div>
+                            <div class="issue-details">
+                                <h3>No On-Screen Help or Hints</h3>
+                                <p class="issue-heuristic">Heuristic Violated: Help and Documentation, Error Prevention, Recognition Rather Than Recall
+                                    
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        When I am browsing or exploring the List Products  by Categories or the All products category the site provides no tooltips, help buttons, 
+                                        or guidance for users while navigating or using features.
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                        Users may struggle to understand how to use certain features or complete tasks, leading to confusion, mistakes, and a poor overall user
+                                        experience—especially for new users.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/lack of currency symbols.png" alt="Screenshot of issue: Inconsistent button styling across pages">
+                            </div>
+                            <div class="issue-details">
+                                <h3>Lack of currency symbols.</h3>
+                                <p class="issue-heuristic">Heuristic Violated: Visibility of System Status, Match Between System and the Real World
+                                    
+                                    
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        The site does not specify what currency symbol it uses when showing the price of an item.
+
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                        This causes hesitation and distrust — users may abandon the cart rather than risk paying an unexpected amount. This small oversight raises redflags about how tru                     stworthy or secure the payment process will be.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/undo.png" alt="Screenshot of issue: Form validation errors are not clearly indicated">
+                            </div>
+                            <div class="issue-details">
+                                <h3>There is no "Undo" button right after clicking the "Empty
+                                    Cart" or "+" and "-" which can be frustrating in some cases.</h3>
+                                <p class="issue-heuristic">Heuristic Violated: User Control and Freedom, Visibility of System Status, Help Users Recognize, Diagnose, and Recover from
+                                    Errors</p>
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        When clicking some buttons there are no undo which may cause frustration if it’s accidentally clicked.
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                        Users feel powerless and may lose trust in the system. Frustration rises, especially if the cart had many items or specific quantities. Increased cart abandonment or support inquiries.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="issue-card">
+                            <div class="issue-image">
+                                <img src="image/evaluation_result/checkout even with zero items.png" alt="Screenshot of issue: Form validation errors are not clearly indicated">
+                            </div>
+                            <div class="issue-details">
+                                <h3>The system allows checkout even with zero items to
+                                    checkout.</h3>
+                                <p class="issue-heuristic">Heuristic Violated: Visibility of System Status, Error Prevention, Help Users Recognize, Diagnose, and Recover from Errors</p>
+                                <div class="issue-description">
+                                    <h4>Description:</h4>
+                                    <p>
+                                        Even when there are no items in the Cart section the system still allows checking out.
+                                    </p>
+                                </div>
+                                <div class="issue-impact">
+                                    <h4>Impact on User Experience:</h4>
+                                    <p>
+                                        User confusion and frustration. Increased abandonment at checkout. Perceived sloppiness or brokenness of the app
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Website Evaluation Report. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

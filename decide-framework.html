@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Evaluation Report - DECIDE Framework</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Evaluation Report</a>
+                </div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="decide-framework.html">DECIDE Framework</a></li>
+                        <li><a href="evaluation-results.html">Evaluation Results</a></li>
+                        <li><a href="tasks.html">Tasks</a></li>
+                        <li><a href="improvements.html">Proposed Improvements</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="decide-framework.html">DECIDE Framework</a></li>
+            <li><a href="evaluation-results.html">Evaluation Results</a></li>
+            <li><a href="tasks.html">Tasks</a></li>
+            <li><a href="improvements.html">Proposed Improvements</a></li>
+            <li><a href="extra.html">Extra</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="container">
+            <section class="page-header">
+                <h1>DECIDE Framework</h1>
+                <p class="subtitle">6-step DECIDE process used in our evaluation</p>
+            </section>
+
+            <section class="card">
+                <div class="card-header">
+                    <h2>About the DECIDE Framework</h2>
+                    <p class="card-description">Detailed documentation of the 6-step DECIDE process for evaluating this system.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">The 6 Steps</h2>
+                
+                <div class="decide-step">
+                    <div class="decide-content">
+                        <h3>D - Determine the goals</h3>
+                        <div class="implementation-box">
+                            <p>• Heuristic Evaluation for Mobile Store Management System</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decide-step">
+                    <div class="decide-content">
+                        <h3>E - Explore the questions</h3>
+                        <div class="implementation-box">
+                            <p>•Is the dashboard intuitive and easy for administrator to navigate? <br>
+                                •How efficient is the process for adding or updating products, brands, and categories? <br>
+                                •Are critical KPIs (e.g., Total Stocks, Pending Orders , Sales, etc.) displayed clearly and accurately? </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decide-step">
+                    <div class="decide-content">
+                        <h3>C - Choose the evaluation approach and methods</h3>
+                        <div class="implementation-box">
+                            <p>• For the evaluation approach and methods, a combination of usability testing and heuristic evaluation we employed. 
+                                A usability testing will involve directly observing administrators as they interact with the system to complete 
+                                various tasks, such as adding a new product or generating a sales report. Heuristic evaluation will be conducted 
+                                by usability experts who will assess the interface using established principles like Nielsen’s heuristics.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decide-step">
+                    <div class="decide-content">
+                        <h3>I - Identify the practical issues</h3>
+                        <div class="implementation-box">
+                            <p>• Availability of real users (administrators) for testing. <br> 
+                                • System is running on localhost, result to external users can't access it unless deployed online. <br>
+                                • Testers must be familiar with mobile inventory systems to give relevant feeback.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decide-step">
+                    <div class="decide-content">
+                        <h3>D - Decide to the ethical issues</h3>
+                        <div class="implementation-box">
+                            <p>• All usability participants must provide informed consent before taking part in any session. <br>
+                                • No sensitive or personally identifiable information will be recorded without explicit permission. <br> 
+                                • All feedback gathered during testing will be treated anonymously and used solely for system improvement purposes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decide-step">
+                    <div class="decide-content">
+                        <h3>E - Evaluation, Analyze, Interpret and Present the data</h3>
+                        <div class="implementation-box">
+                            <p>• Data gathered through usability testing and heuristic evaluation will be carefully analyzed to assess the system’s 
+                                effectiveness. For usability testing, task success rates, error frequencies, and time-on-task will be compiled to measure 
+                                the system's efficiency and usability. Heuristic evaluation will be used to identify violations of usability principles, 
+                                such as issues with consistency, feedback, or error prevention. </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Website Evaluation Report. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
